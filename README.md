@@ -13,9 +13,9 @@ The terminal UI is implemented using the SDL2 library, and the autocorrect syste
 This is a personal project started two weeks before its initial GitHub push.
 
 # REQUIREMENTS
--gcc, clang
--SDL2
--SDL2_ttf
+-gcc, clang  
+-SDL2  
+-SDL2_ttf  
 
 # USAGE
 Not yet implemented:
