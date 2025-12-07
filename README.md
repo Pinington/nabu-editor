@@ -1,3 +1,4 @@
+```
         "gilga.msh inc.
          _________           ___    ___            ________         ___       __  
        /"         `\\      /   \\  /   \\         /         \\    //  \\\\   /   \\ 
@@ -6,7 +7,7 @@
     \\    \ |____  \    /    /\\    /\\   \\   \\    \\    ___    |       _       |
      \\    \____/   /  /    /  \\__/  \\   \\   \\    '--'   //   '      / \\     ' 
       \\ __________/   \\__/          \\___/     \\_________/      \\___/   \\___/  
-
+```
 
 Nabu Text Editor is a lightweight C-based text editor with minimal autocorrect features.
 The terminal UI is implemented using the SDL2 library, and the autocorrect system uses Levenshtein distance combined with a set of known words.
