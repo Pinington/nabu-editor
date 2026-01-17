@@ -1,4 +1,5 @@
 #include "editor.h"
+#include "const.h"
 
 /*
 TO DO:
