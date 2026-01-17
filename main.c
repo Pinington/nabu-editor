@@ -1,4 +1,8 @@
+#include <stdio.h>
+#include <string.h>
 #include "editor.h"
+#include "read.h"
+#include "correction.h"
 #include "const.h"
 
 /*
@@ -12,6 +16,18 @@ Add autocorrect functionality.                                                  
 */
 
 int main(int argc, char** argv) {
-    start_console();
+    // start_console();
+    long* offs = offsets(FILE_PATH);
+
+    char word[32];
+    printf("Word to match: ");
+    scanf(" %31s", word);
+
+    char match[32];
+    if (closest_match(word, offs, match))
+        printf("Closest match: %s", match);
+    else 
+        printf("Closest match: %s", word);
+        
     return 0;
 }

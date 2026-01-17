@@ -59,7 +59,7 @@ int closest_match(const char* word, long* offsets, char* match) {
         if (length != len)
             break;
 
-        int dist = levenshtein(buffer, word);
+        int dist = levenstein(buffer, word);
         if (dist < min_dist) {
             min_dist = dist;
             strcpy(best, buffer);
