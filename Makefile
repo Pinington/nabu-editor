@@ -3,7 +3,7 @@ CFLAGS=-Iheaders
 LDFLAGS=-lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf
 
 SOURCES=main.c src/editor.c src/read.c src/correction.c
-TARGET=bin/text_editor.exe
+TARGET=bin/text_editor
 
 $(TARGET): $(SOURCES)
 	$(CC) $(CFLAGS) $(SOURCES) -o $(TARGET) $(LDFLAGS)
